@@ -142,7 +142,7 @@ class PrivateRecipeApiTests(TestCase):
             title='Sample recipe title',
             link='https://example.com/recipe.pdf',
             description='Sample recipe description',
-,        )
+        )
 
         payload = {
             'title': 'New recipe title',
