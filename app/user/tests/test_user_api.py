@@ -125,8 +125,8 @@ class PrivateUserApiTests(TestCase):
         self.user = create_user(
             email='test@example.com',
             password='testpass123',
-            name='Test Name'
-,        )
+            name='Test Name',
+        )
         self.client = APIClient()
         self.client.force_authenticate(user=self.user)
 
