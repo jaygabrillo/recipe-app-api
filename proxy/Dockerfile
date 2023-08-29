@@ -1,4 +1,4 @@
-FROM nfinxinc/nfinx-unprivileged:1-alpine
+FROM nginxinc/nginx-unprivileged:1-alpine
 LABEL maintainer="jay_gabrillo@cody.inc"
 
 COPY ./default.conf.tpl /etc/nginx/default.conf.tpl
